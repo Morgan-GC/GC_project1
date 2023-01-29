@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head> <link rel="stylesheet" href="GC_font_randomizer.css">
+
+  
+</head>
+
+
+<body>
+
+  <h1>Get Coding Font Color Randomizer</h1>
+
+
+<div>
+<form>
+ 
+  <input type="text" id="input"> <br> <br>
+  </form>
+  
+   
+  
+    <input type="text"id="output"> 
+    <button onclick="copyText() randomize()" type="button" id="b1" >Submit</button><br>
+
+    </div>
+
+    
+    
+ 
+
+
+<script>
+ function copyText(){
+   document.getElementById("output").value=document.getElementById("input").value;
+  }
+  function randomize() {
+  document.getElementById("output").style.color = randomColors();
+}
+
+function randomColors() {
+  return '#' + Math.floor(Math.random() * 16777215).toString(16);
+}
+
+
+
+
+</script> 
+</form>
+</div>
+
+
+<p>Lorem Ipsum etc.</p>
+
+</body>
+</html>
