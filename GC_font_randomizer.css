@@ -1,0 +1,35 @@
+* {
+
+  text-align: center;
+  
+  }
+
+  .block, div {
+  border: 3px solid black;
+  padding: 6em;
+  display: inline-block;
+  position: relative;
+  height: auto; }
+
+  #output {position: absolute;
+    right: 7.2em;
+ 
+}
+
+#b1 {position: absolute;
+  right: 3em;
+  
+}
+
+  
+
+ 
+
+
+
+
+
+ 
+  
+
+
